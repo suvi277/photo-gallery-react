@@ -1,0 +1,29 @@
+/*
+ * Cover
+ */
+
+.cover-container {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, .8) 0, rgba(92, 77, 66, .8) 100%), url('https://previews.123rf.com/images/halfpoint/halfpoint1503/halfpoint150300011/37073968-mix-of-old-cameras-on-wooden-desk-background-.jpg');
+    background-size: cover;
+}
+
+.inner {
+    text-align: center;
+}
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.cover {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.no-background .inner {
+    padding-top: 120px;
+}

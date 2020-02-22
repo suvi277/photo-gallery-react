@@ -1,0 +1,47 @@
+.card.photo-card {
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.card-overlay {
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    height: 100%;
+    background: rgba(0,0,0, 0.3);
+    display: none;
+}
+
+.card:hover .card-overlay  {
+    display: block;
+}
+
+.card-overlay p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.card-overlay .title  {
+    font-size: 14px;
+}
+
+.like-button,
+.unlike-button {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.like-button,
+.unlike-button:hover {
+    color: #FF6347;
+}
+
+.unlike-button,
+.like-button:hover {
+    color: #ffffff;
+}

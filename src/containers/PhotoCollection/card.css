@@ -1,0 +1,14 @@
+@media (min-width: 576px) {
+    .inner .card-columns {
+        column-count: 4;
+    }
+}
+
+.search-bar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 64px;
+    background-color: #000;
+    z-index: 1;
+    padding-bottom: 20px;
+}
